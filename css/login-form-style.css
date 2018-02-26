@@ -1,0 +1,61 @@
+body {
+	background-color: #eee;
+	padding-top: 200px;
+}
+
+.flex-row {
+	display: flex;
+}
+
+.-is-aligned-right {
+	justify-content: flex-end;
+}
+
+.login-form {
+	width: 370px;
+	max-width: 95%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-top: 2px solid #00f;
+	border-radius: 5px 5px 0 0;
+	padding: 20px 15px 10px 15px;
+}
+
+.login-form .btn {
+	margin-left: 10px;
+	margin-bottom: 15px;
+	border-radius: 0;
+}
+
+.login-form input:active,
+.login-form input:focus {
+	border: 1px solid #00f;
+	box-shadow: none;
+}
+
+.input-group-addon.glyphicon {
+  top: 0px;
+}
+
+.input-group-addon {
+	background-color: #fff;
+}
+
+.company-name {
+	color: #444;
+}
+
+.company-logo {
+	font-size: 30px;
+}
+
+.company-name {
+	font-size: 24px;
+}
+
+.company-logo.glyphicon {
+	top: 4px;
+}
+
